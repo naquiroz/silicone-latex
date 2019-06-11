@@ -48,7 +48,7 @@
 
 
 \newcommand{\setPuc}[3]{\def\@isPuc{1}
-\def\@pucCode{#1}n
+\def\@pucCode{#1}
 \def\@pucCourse{#2}
 \def\@pucFaculty{#3}
 }
