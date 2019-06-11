@@ -48,7 +48,7 @@
 
 
 \newcommand{\setPuc}[3]{\def\@isPuc{1}
-\def\@pucCode{#1}
+\def\@pucCode{#1}n
 \def\@pucCourse{#2}
 \def\@pucFaculty{#3}
 }
@@ -61,6 +61,8 @@
 \newcommand{\setRightHeader}[1]{\def\@rHeader{#1}}
 \newcommand{\setAuthor}[1]{\def\@docAuthor{#1}}
 \newcommand{\setDocTitle}[1]{\def\@titleText{#1}}
+\newcommand{\setYear}[1]{\def\@year{#1}}
+\newcommand{\setSemester}[1]{\def\@semester{#1}}
 
 \newcommand{\makefirstheader}{
   \begin{minipage}{2.3cm}
